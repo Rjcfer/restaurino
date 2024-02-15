@@ -1,0 +1,76 @@
+{
+  "workbench.colorTheme": "Dracula Soft",
+  "editor.formatOnSave": true,
+  "liveServer.settings.useWebExt": true,
+  "phpserver.browser": "google-chrome",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "bracketPairColorizer.depreciation-notice": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.sideBar.location": "right",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "git.ignoreRebaseWarning": true,
+  "editor.inlineSuggest.enabled": true,
+  "git.autofetch": true,
+  "idf.gitPathWin": "C:/Espressif/tools/idf-git/2.34.2/cmd/git.exe",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "CodeGPT.query.language": "French",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false,
+    "editor.tabSize": 4
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": false
+  },
+  "idf.espIdfPathWin": "C:/Espressif/frameworks/esp-idf-v4.1.3/",
+  "idf.pythonBinPathWin": "C:/Espressif/python_env/idf4.1_py3.8_env/Scripts/python.exe",
+  "idf.toolsPathWin": "C:\\Espressif",
+  "idf.customExtraPaths": "C:\\Espressif\\tools\\xtensa-esp32-elf\\esp-2020r3-8.4.0\\xtensa-esp32-elf\\bin;C:\\Espressif\\tools\\xtensa-esp32s2-elf\\esp-2020r3-8.4.0\\xtensa-esp32s2-elf\\bin;C:\\Espressif\\tools\\esp32ulp-elf\\2.28.51-esp-20191205\\esp32ulp-elf-binutils\\bin;C:\\Espressif\\tools\\esp32s2ulp-elf\\2.28.51-esp-20191205\\esp32s2ulp-elf-binutils\\bin;C:\\Espressif\\tools\\cmake\\3.13.4\\bin;C:\\Espressif\\tools\\openocd-esp32\\v0.11.0-esp32-20211220\\openocd-esp32\\bin;C:\\Espressif\\tools\\ninja\\1.9.0;C:\\Espressif\\tools\\idf-exe\\1.0.1;C:\\Espressif\\tools\\ccache\\3.7",
+  "idf.customExtraVars": {
+    "OPENOCD_SCRIPTS": "C:\\Espressif\\tools\\openocd-esp32\\v0.11.0-esp32-20211220/openocd-esp32/share/openocd/scripts",
+    "IDF_CCACHE_ENABLE": "1"
+  },
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "c-cpp-compile-run.c-compiler": "C:\\TDM-GCC-64\\bin\\gcc.exe",
+  "c-cpp-compile-run.output-location": "C:\\Users\\corre\\Documents\\c++",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "c-cpp-compile-run.cpp-compiler": "C:\\TDM-GCC-64\\bin\\cpp.exe",
+  "http.proxyAuthorization": null,
+  "workbench.settings.applyToAllProfiles": [
+    "c-cpp-compile-run.cpp-compiler",
+    "editor.defaultFormatter"
+  ],
+  "c-cpp-compile-run.c-flags": "-Wall -Wextra -g3 -lstdc++",
+  "debug.onTaskErrors": "abort",
+  "prettier.configPath": ".prettierrc",
+  "redhat.telemetry.enabled": false,
+  "prettier.requireConfig": true,
+  "eslint.codeActionsOnSave.rules": null,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+
+  },
+  "editor.tabSize": 2
+}

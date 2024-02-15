@@ -1,5 +1,7 @@
+"use client";
 import styles from './register.module.css'
 import { useState } from "react";
+import { useRouter } from 'next/navigation';
 
 
 export default function Register() {
@@ -16,16 +18,16 @@ export default function Register() {
       password,
     };
 
-    fetch(`/api/register`, {
+    fetch(`/api/users/signup`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(data),
     })
-      .then((response) => response.json())
-      .then((data) => {
-        if (data.success) {
+      .then((response) => {
+        console.log(response);
+       /*  if (data.success) {
           // Le compte a été créé avec succès
           // Rediriger l'utilisateur vers la page de connexion
           window.location.href = '/';
@@ -33,7 +35,7 @@ export default function Register() {
           // Une erreur s'est produite
           // Afficher un message d'erreur à l'utilisateur
           console.log(data.error);
-        }
+        } */
       });
   };
 

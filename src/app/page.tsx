@@ -1,4 +1,5 @@
 // Importer les modules nécessaires
+"use client";
 import { useEffect, useRef } from "react";
 import Link from "next/link";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -69,7 +70,7 @@ export default function Home() {
               Connexion
             </a>
           </Link>
-          <Link href="/register" legacyBehavior>
+          <Link href="/signup" legacyBehavior>
             <a
               className="btn btn-secondary m-2"
               style={{
