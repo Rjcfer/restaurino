@@ -9,9 +9,35 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: dev
       MYSQL_DATABASE: restaurino
-#    MYSQL_USER: root
-#    MYSQL_PASSWORD: dev
+    volumes:
+      - mysql_data:/var/lib/mysql
     deploy:
       restart_policy:
         condition: on-failure
         max_attempts: 10
+    networks:
+      - restaurino_network
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: phpmyadmin-container
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: mysql
+      PMA_USER: root
+      PMA_PASSWORD: dev
+    depends_on:
+      - mysql
+    deploy:
+      restart_policy:
+        condition: on-failure
+        max_attempts: 10
+    networks:
+      - restaurino_network
+
+networks:
+  restaurino_network:
+
+volumes:
+  mysql_data:
