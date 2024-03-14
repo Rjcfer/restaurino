@@ -1,14 +1,12 @@
 "use client";
-import styles from './login.module.css'
+import styles from "./login.module.css";
 import { useState } from "react";
 
-
 export default function LoginPage() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-
-  const handleSubmit = (e:any) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault();
     console.log({ email, password });
   };
